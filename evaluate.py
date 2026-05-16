@@ -123,8 +123,8 @@ def process_all_csv(folder_path):
             })
 
     return results
-print(process_all_csv("/mnt/jfzn/zjs/FAIRNESS-DIFFERENCE/llminfer/result/Qwen3-8B/test/rawls-cott"))
-exit()
+# print(process_all_csv("/mnt/jfzn/zjs/FAIRNESS-DIFFERENCE/llminfer/result/Qwen3-8B/test/rawls-cott"))
+# exit()
 
 MODELLIST = [
     # "/home/new_disk/llmhub/gemma/gemma-2-9b-it",
