@@ -1,5 +1,21 @@
 # fairness-interpretability
 
+[add]
+
+[7-opensourced-llm.json](result%2F7-opensourced-llm.json): 7个开源模型的实验结果
+```
+model_name: {
+    method: {
+        abscore_avg: xxx,
+        abscore_dist: [xxx, xxx, xxx, xxx],
+        diffaware_avg: xxx,
+        diffaware_dist: [xxx, xxx, xxx, xxx],
+        ctxtaware_avg: xxx,
+        ctxtaware_dist: [xxx, xxx, xxx, xxx],
+    }
+}
+[Tips]: base 是直接回答；debiasing/none/unbias-re 是自我反思基线
+```
 
 1. 推理脚本
 ```shell

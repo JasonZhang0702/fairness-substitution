@@ -1,0 +1,1787 @@
+{
+    "Meta-Llama-3-8B-Instruct": {
+        "base": {
+            "abscore_avg": 41.91,
+            "abscore_dist": [
+                7.85,
+                51.3,
+                51.0,
+                57.5
+            ],
+            "diffaware_avg": 29.18,
+            "diffaware_dist": [
+                15.7,
+                10.28,
+                75.41,
+                15.32
+            ],
+            "ctxtaware_avg": 57.0,
+            "ctxtaware_dist": [
+                13.57,
+                62.5,
+                51.95,
+                100.0
+            ]
+        },
+        "debiasing": {
+            "abscore_avg": 43.34,
+            "abscore_dist": [
+                4.8,
+                47.7,
+                58.85,
+                62.0
+            ],
+            "diffaware_avg": 26.92,
+            "diffaware_dist": [
+                9.2,
+                11.69,
+                57.1,
+                29.7
+            ],
+            "ctxtaware_avg": 48.3,
+            "ctxtaware_dist": [
+                8.46,
+                41.67,
+                59.17,
+                83.9
+            ]
+        },
+        "none": {
+            "abscore_avg": 44.11,
+            "abscore_dist": [
+                9.15,
+                50.55,
+                52.05,
+                64.7
+            ],
+            "diffaware_avg": 37.56,
+            "diffaware_dist": [
+                18.3,
+                22.08,
+                77.68,
+                32.16
+            ],
+            "ctxtaware_avg": 52.78,
+            "ctxtaware_dist": [
+                15.47,
+                51.52,
+                51.36,
+                92.77
+            ]
+        },
+        "unbias-re": {
+            "abscore_avg": 48.92,
+            "abscore_dist": [
+                32.6,
+                50.45,
+                59.2,
+                53.45
+            ],
+            "diffaware_avg": 12.3,
+            "diffaware_dist": [
+                0.1,
+                5.78,
+                36.4,
+                6.9
+            ],
+            "ctxtaware_avg": 55.47,
+            "ctxtaware_dist": [
+                0.29,
+                54.55,
+                67.03,
+                100.0
+            ]
+        },
+        "rawls": {
+            "abscore_avg": 45.2,
+            "abscore_dist": [
+                9.45,
+                55.75,
+                57.6,
+                58.0
+            ],
+            "diffaware_avg": 25.0,
+            "diffaware_dist": [
+                18.9,
+                13.41,
+                51.5,
+                16.2
+            ],
+            "ctxtaware_avg": 65.48,
+            "ctxtaware_dist": [
+                15.9,
+                88.59,
+                58.66,
+                98.78
+            ]
+        },
+        "rawls-cott-nodefine": {
+            "abscore_avg": 51.39,
+            "abscore_dist": [
+                20.85,
+                70.5,
+                49.7,
+                64.5
+            ],
+            "diffaware_avg": 53.58,
+            "diffaware_dist": [
+                41.7,
+                47.63,
+                89.4,
+                35.6
+            ],
+            "ctxtaware_avg": 62.97,
+            "ctxtaware_dist": [
+                29.43,
+                88.25,
+                49.83,
+                84.36
+            ]
+        },
+        "rawls-cott-nodefine-gt": {
+            "abscore_avg": 57.0,
+            "abscore_dist": [
+                20.85,
+                70.8,
+                69.05,
+                67.3
+            ],
+            "diffaware_avg": 53.6,
+            "diffaware_dist": [
+                41.7,
+                47.69,
+                89.4,
+                35.6
+            ],
+            "ctxtaware_avg": 69.83,
+            "ctxtaware_dist": [
+                29.43,
+                89.1,
+                63.54,
+                97.27
+            ]
+        },
+        "rawls-cott-nodefine-reverse": {
+            "abscore_avg": 45.85,
+            "abscore_dist": [
+                19.35,
+                68.65,
+                35.6,
+                59.8
+            ],
+            "diffaware_avg": 42.5,
+            "diffaware_dist": [
+                38.7,
+                43.91,
+                61.2,
+                26.2
+            ],
+            "ctxtaware_avg": 58.91,
+            "ctxtaware_dist": [
+                27.9,
+                87.37,
+                40.48,
+                79.88
+            ]
+        },
+        "rawls-cott": {
+            "abscore_avg": 51.3,
+            "abscore_dist": [
+                21.05,
+                70.2,
+                49.25,
+                64.7
+            ],
+            "diffaware_avg": 53.02,
+            "diffaware_dist": [
+                42.1,
+                48.99,
+                87.5,
+                33.5
+            ],
+            "ctxtaware_avg": 63.44,
+            "ctxtaware_dist": [
+                29.63,
+                85.44,
+                49.58,
+                89.1
+            ]
+        },
+        "rawls-cott-gt": {
+            "abscore_avg": 55.71,
+            "abscore_dist": [
+                21.0,
+                70.5,
+                65.0,
+                66.35
+            ],
+            "diffaware_avg": 53.04,
+            "diffaware_dist": [
+                42.0,
+                48.94,
+                87.5,
+                33.7
+            ],
+            "ctxtaware_avg": 68.35,
+            "ctxtaware_dist": [
+                29.58,
+                86.35,
+                60.34,
+                97.12
+            ]
+        },
+        "rawls-cott-reverse": {
+            "abscore_avg": 47.61,
+            "abscore_dist": [
+                18.85,
+                68.7,
+                41.0,
+                61.9
+            ],
+            "diffaware_avg": 45.64,
+            "diffaware_dist": [
+                37.7,
+                45.88,
+                71.0,
+                28.0
+            ],
+            "ctxtaware_avg": 60.87,
+            "ctxtaware_dist": [
+                27.38,
+                84.76,
+                44.38,
+                86.96
+            ]
+        }
+    },
+    "Meta-Llama-3.1-8B-Instruct": {
+        "base": {
+            "abscore_avg": 49.14,
+            "abscore_dist": [
+                22.75,
+                57.75,
+                50.55,
+                65.5
+            ],
+            "diffaware_avg": 39.01,
+            "diffaware_dist": [
+                45.5,
+                16.63,
+                61.3,
+                32.6
+            ],
+            "ctxtaware_avg": 68.22,
+            "ctxtaware_dist": [
+                31.27,
+                95.86,
+                50.45,
+                95.32
+            ]
+        },
+        "debiasing": {
+            "abscore_avg": 46.21,
+            "abscore_dist": [
+                22.6,
+                52.45,
+                58.1,
+                51.7
+            ],
+            "diffaware_avg": 25.2,
+            "diffaware_dist": [
+                45.2,
+                13.2,
+                39.0,
+                3.4
+            ],
+            "ctxtaware_avg": 63.91,
+            "ctxtaware_dist": [
+                31.13,
+                61.4,
+                63.11,
+                100.0
+            ]
+        },
+        "none": {
+            "abscore_avg": 56.24,
+            "abscore_dist": [
+                35.45,
+                70.5,
+                52.9,
+                66.1
+            ],
+            "diffaware_avg": 56.42,
+            "diffaware_dist": [
+                70.8,
+                50.3,
+                66.1,
+                38.5
+            ],
+            "ctxtaware_avg": 66.03,
+            "ctxtaware_dist": [
+                41.48,
+                84.4,
+                52.29,
+                85.94
+            ]
+        },
+        "unbias-re": {
+            "abscore_avg": 43.76,
+            "abscore_dist": [
+                18.25,
+                52.95,
+                53.45,
+                50.4
+            ],
+            "diffaware_avg": 9.72,
+            "diffaware_dist": [
+                2.0,
+                9.6,
+                26.5,
+                0.8
+            ],
+            "ctxtaware_avg": 58.16,
+            "ctxtaware_dist": [
+                2.96,
+                72.18,
+                57.48,
+                100.0
+            ]
+        },
+        "rawls": {
+            "abscore_avg": 48.34,
+            "abscore_dist": [
+                22.7,
+                53.65,
+                54.85,
+                62.15
+            ],
+            "diffaware_avg": 31.08,
+            "diffaware_dist": [
+                45.4,
+                7.63,
+                43.5,
+                27.8
+            ],
+            "ctxtaware_avg": 68.43,
+            "ctxtaware_dist": [
+                31.22,
+                97.4,
+                56.27,
+                88.82
+            ]
+        },
+        "rawls-cott-nodefine": {
+            "abscore_avg": 56.42,
+            "abscore_dist": [
+                33.85,
+                72.85,
+                54.7,
+                64.3
+            ],
+            "diffaware_avg": 60.86,
+            "diffaware_dist": [
+                66.1,
+                52.25,
+                85.3,
+                39.8
+            ],
+            "ctxtaware_avg": 65.02,
+            "ctxtaware_dist": [
+                40.18,
+                88.93,
+                52.92,
+                78.04
+            ]
+        },
+        "rawls-cott-nodefine-gt": {
+            "abscore_avg": 59.28,
+            "abscore_dist": [
+                34.1,
+                73.1,
+                63.05,
+                66.85
+            ],
+            "diffaware_avg": 60.84,
+            "diffaware_dist": [
+                66.1,
+                52.05,
+                85.3,
+                39.9
+            ],
+            "ctxtaware_avg": 68.96,
+            "ctxtaware_dist": [
+                40.3,
+                89.97,
+                59.03,
+                86.55
+            ]
+        },
+        "rawls-cott-nodefine-reverse": {
+            "abscore_avg": 53.22,
+            "abscore_dist": [
+                33.1,
+                70.75,
+                48.25,
+                60.8
+            ],
+            "diffaware_avg": 54.64,
+            "diffaware_dist": [
+                64.6,
+                48.05,
+                72.4,
+                33.5
+            ],
+            "ctxtaware_avg": 62.58,
+            "ctxtaware_dist": [
+                39.63,
+                88.07,
+                48.82,
+                73.79
+            ]
+        },
+        "rawls-cott": {
+            "abscore_avg": 55.89,
+            "abscore_dist": [
+                32.9,
+                72.75,
+                54.0,
+                63.9
+            ],
+            "diffaware_avg": 59.2,
+            "diffaware_dist": [
+                63.8,
+                51.2,
+                84.1,
+                37.7
+            ],
+            "ctxtaware_avg": 65.28,
+            "ctxtaware_dist": [
+                39.43,
+                89.98,
+                52.5,
+                79.2
+            ]
+        },
+        "rawls-cott-gt": {
+            "abscore_avg": 58.34,
+            "abscore_dist": [
+                32.8,
+                73.0,
+                61.45,
+                66.1
+            ],
+            "diffaware_avg": 59.22,
+            "diffaware_dist": [
+                63.6,
+                51.2,
+                84.1,
+                38.0
+            ],
+            "ctxtaware_avg": 68.69,
+            "ctxtaware_dist": [
+                39.36,
+                90.78,
+                57.88,
+                86.76
+            ]
+        },
+        "rawls-cott-reverse": {
+            "abscore_avg": 52.68,
+            "abscore_dist": [
+                31.65,
+                72.0,
+                47.6,
+                59.45
+            ],
+            "diffaware_avg": 53.2,
+            "diffaware_dist": [
+                61.3,
+                49.8,
+                71.3,
+                30.4
+            ],
+            "ctxtaware_avg": 62.24,
+            "ctxtaware_dist": [
+                38.48,
+                89.57,
+                48.37,
+                72.55
+            ]
+        }
+    },
+    "Qwen2.5-14B-Instruct": {
+        "base": {
+            "abscore_avg": 55.26,
+            "abscore_dist": [
+                28.95,
+                52.9,
+                64.6,
+                74.6
+            ],
+            "diffaware_avg": 31.52,
+            "diffaware_dist": [
+                8.1,
+                7.3,
+                51.4,
+                59.3
+            ],
+            "ctxtaware_avg": 63.03,
+            "ctxtaware_dist": [
+                13.89,
+                82.95,
+                69.84,
+                85.45
+            ]
+        },
+        "debiasing": {
+            "abscore_avg": 51.4,
+            "abscore_dist": [
+                27.25,
+                50.4,
+                61.15,
+                66.8
+            ],
+            "diffaware_avg": 17.32,
+            "diffaware_dist": [
+                4.3,
+                2.3,
+                25.8,
+                36.9
+            ],
+            "ctxtaware_avg": 62.08,
+            "ctxtaware_dist": [
+                7.95,
+                60.53,
+                88.05,
+                91.79
+            ]
+        },
+        "none": {
+            "abscore_avg": 55.52,
+            "abscore_dist": [
+                27.85,
+                52.0,
+                66.05,
+                76.2
+            ],
+            "diffaware_avg": 32.55,
+            "diffaware_dist": [
+                7.6,
+                6.0,
+                57.8,
+                58.8
+            ],
+            "ctxtaware_avg": 61.79,
+            "ctxtaware_dist": [
+                12.77,
+                75.0,
+                69.22,
+                90.18
+            ]
+        },
+        "unbias-re": {
+            "abscore_avg": 53.69,
+            "abscore_dist": [
+                42.5,
+                49.95,
+                60.8,
+                61.5
+            ],
+            "diffaware_avg": 12.98,
+            "diffaware_dist": [
+                0.3,
+                1.8,
+                26.6,
+                23.2
+            ],
+            "ctxtaware_avg": 58.48,
+            "ctxtaware_dist": [
+                1.92,
+                48.65,
+                84.18,
+                99.15
+            ]
+        },
+        "rawls": {
+            "abscore_avg": 53.39,
+            "abscore_dist": [
+                26.45,
+                52.9,
+                61.6,
+                72.6
+            ],
+            "diffaware_avg": 38.8,
+            "diffaware_dist": [
+                14.2,
+                7.2,
+                75.5,
+                58.3
+            ],
+            "ctxtaware_avg": 60.82,
+            "ctxtaware_dist": [
+                18.81,
+                83.72,
+                59.08,
+                81.65
+            ]
+        },
+        "rawls-cott-nodefine": {
+            "abscore_avg": 57.36,
+            "abscore_dist": [
+                40.8,
+                71.3,
+                50.0,
+                67.35
+            ],
+            "diffaware_avg": 60.4,
+            "diffaware_dist": [
+                32.5,
+                53.6,
+                86.6,
+                68.9
+            ],
+            "ctxtaware_avg": 59.69,
+            "ctxtaware_dist": [
+                38.97,
+                82.97,
+                50.0,
+                66.83
+            ]
+        },
+        "rawls-cott-nodefine-gt": {
+            "abscore_avg": 66.12,
+            "abscore_dist": [
+                41.85,
+                72.25,
+                67.05,
+                83.35
+            ],
+            "diffaware_avg": 60.5,
+            "diffaware_dist": [
+                32.5,
+                53.6,
+                86.6,
+                69.3
+            ],
+            "ctxtaware_avg": 71.03,
+            "ctxtaware_dist": [
+                39.98,
+                85.49,
+                62.26,
+                96.38
+            ]
+        },
+        "rawls-cott-nodefine-reverse": {
+            "abscore_avg": 48.91,
+            "abscore_dist": [
+                35.65,
+                65.55,
+                41.75,
+                52.7
+            ],
+            "diffaware_avg": 43.7,
+            "diffaware_dist": [
+                22.2,
+                42.0,
+                70.1,
+                40.5
+            ],
+            "ctxtaware_avg": 52.02,
+            "ctxtaware_dist": [
+                30.37,
+                79.4,
+                44.74,
+                53.57
+            ]
+        },
+        "rawls-cott": {
+            "abscore_avg": 56.29,
+            "abscore_dist": [
+                37.45,
+                67.8,
+                50.5,
+                69.4
+            ],
+            "diffaware_avg": 55.82,
+            "diffaware_dist": [
+                25.9,
+                44.5,
+                85.4,
+                67.5
+            ],
+            "ctxtaware_avg": 59.37,
+            "ctxtaware_dist": [
+                33.68,
+                83.33,
+                50.29,
+                70.17
+            ]
+        },
+        "rawls-cott-gt": {
+            "abscore_avg": 65.8,
+            "abscore_dist": [
+                38.5,
+                68.5,
+                72.5,
+                83.7
+            ],
+            "diffaware_avg": 56.4,
+            "diffaware_dist": [
+                26.1,
+                44.5,
+                85.4,
+                69.6
+            ],
+            "ctxtaware_avg": 71.28,
+            "ctxtaware_dist": [
+                34.71,
+                85.58,
+                67.89,
+                96.94
+            ]
+        },
+        "rawls-cott-reverse": {
+            "abscore_avg": 48.26,
+            "abscore_dist": [
+                33.65,
+                62.6,
+                39.25,
+                57.55
+            ],
+            "diffaware_avg": 40.38,
+            "diffaware_dist": [
+                18.4,
+                34.0,
+                62.9,
+                46.2
+            ],
+            "ctxtaware_avg": 52.1,
+            "ctxtaware_dist": [
+                26.47,
+                79.44,
+                42.7,
+                59.77
+            ]
+        }
+    },
+    "Qwen2.5-7B-Instruct": {
+        "base": {
+            "abscore_avg": 44.02,
+            "abscore_dist": [
+                8.2,
+                54.0,
+                51.25,
+                62.65
+            ],
+            "diffaware_avg": 39.73,
+            "diffaware_dist": [
+                15.4,
+                8.32,
+                87.2,
+                48.0
+            ],
+            "ctxtaware_avg": 57.72,
+            "ctxtaware_dist": [
+                13.47,
+                98.81,
+                50.73,
+                67.89
+            ]
+        },
+        "debiasing": {
+            "abscore_avg": 41.06,
+            "abscore_dist": [
+                1.85,
+                52.2,
+                57.15,
+                53.05
+            ],
+            "diffaware_avg": 16.75,
+            "diffaware_dist": [
+                2.7,
+                8.1,
+                49.8,
+                6.4
+            ],
+            "ctxtaware_avg": 56.3,
+            "ctxtaware_dist": [
+                2.65,
+                68.64,
+                58.38,
+                95.52
+            ]
+        },
+        "none": {
+            "abscore_avg": 50.75,
+            "abscore_dist": [
+                18.6,
+                61.15,
+                53.95,
+                69.3
+            ],
+            "diffaware_avg": 56.39,
+            "diffaware_dist": [
+                37.1,
+                38.45,
+                87.5,
+                62.5
+            ],
+            "ctxtaware_avg": 55.72,
+            "ctxtaware_dist": [
+                27.1,
+                71.06,
+                52.36,
+                72.34
+            ]
+        },
+        "unbias-re": {
+            "abscore_avg": 44.76,
+            "abscore_dist": [
+                16.5,
+                55.3,
+                55.8,
+                51.45
+            ],
+            "diffaware_avg": 21.7,
+            "diffaware_dist": [
+                11.2,
+                14.1,
+                58.5,
+                3.0
+            ],
+            "ctxtaware_avg": 61.58,
+            "ctxtaware_dist": [
+                12.54,
+                81.5,
+                55.5,
+                96.77
+            ]
+        },
+        "rawls": {
+            "abscore_avg": 46.01,
+            "abscore_dist": [
+                14.8,
+                57.95,
+                54.25,
+                57.05
+            ],
+            "diffaware_avg": 44.12,
+            "diffaware_dist": [
+                28.1,
+                16.1,
+                84.6,
+                47.7
+            ],
+            "ctxtaware_avg": 58.07,
+            "ctxtaware_dist": [
+                22.2,
+                98.77,
+                52.64,
+                58.67
+            ]
+        },
+        "rawls-cott-nodefine": {
+            "abscore_avg": 53.15,
+            "abscore_dist": [
+                25.25,
+                72.6,
+                53.35,
+                61.4
+            ],
+            "diffaware_avg": 62.35,
+            "diffaware_dist": [
+                50.5,
+                60.3,
+                90.2,
+                48.4
+            ],
+            "ctxtaware_avg": 57.72,
+            "ctxtaware_dist": [
+                33.55,
+                79.97,
+                51.93,
+                65.41
+            ]
+        },
+        "rawls-cott-nodefine-gt": {
+            "abscore_avg": 59.74,
+            "abscore_dist": [
+                25.25,
+                76.0,
+                66.25,
+                71.45
+            ],
+            "diffaware_avg": 62.95,
+            "diffaware_dist": [
+                50.5,
+                60.3,
+                90.3,
+                50.7
+            ],
+            "ctxtaware_avg": 67.27,
+            "ctxtaware_dist": [
+                33.55,
+                87.9,
+                60.97,
+                86.67
+            ]
+        },
+        "rawls-cott-nodefine-reverse": {
+            "abscore_avg": 46.94,
+            "abscore_dist": [
+                25.1,
+                68.15,
+                44.35,
+                50.15
+            ],
+            "diffaware_avg": 51.35,
+            "diffaware_dist": [
+                50.2,
+                51.4,
+                72.5,
+                31.3
+            ],
+            "ctxtaware_avg": 51.84,
+            "ctxtaware_dist": [
+                33.42,
+                77.29,
+                46.39,
+                50.24
+            ]
+        },
+        "rawls-cott": {
+            "abscore_avg": 53.09,
+            "abscore_dist": [
+                30.7,
+                70.35,
+                54.45,
+                56.85
+            ],
+            "diffaware_avg": 62.82,
+            "diffaware_dist": [
+                61.4,
+                54.6,
+                87.9,
+                47.4
+            ],
+            "ctxtaware_avg": 57.22,
+            "ctxtaware_dist": [
+                38.04,
+                79.71,
+                52.67,
+                58.45
+            ]
+        },
+        "rawls-cott-gt": {
+            "abscore_avg": 62.84,
+            "abscore_dist": [
+                30.9,
+                74.1,
+                74.35,
+                72.0
+            ],
+            "diffaware_avg": 64.18,
+            "diffaware_dist": [
+                61.8,
+                55.3,
+                87.9,
+                51.7
+            ],
+            "ctxtaware_avg": 70.76,
+            "ctxtaware_dist": [
+                38.2,
+                88.62,
+                69.16,
+                87.04
+            ]
+        },
+        "rawls-cott-reverse": {
+            "abscore_avg": 43.47,
+            "abscore_dist": [
+                28.1,
+                61.75,
+                39.5,
+                44.55
+            ],
+            "diffaware_avg": 45.38,
+            "diffaware_dist": [
+                56.2,
+                38.1,
+                58.0,
+                29.2
+            ],
+            "ctxtaware_avg": 48.19,
+            "ctxtaware_dist": [
+                35.98,
+                72.3,
+                42.34,
+                42.14
+            ]
+        }
+    },
+    "Qwen3-4B": {
+        "base": {
+            "abscore_avg": 48.2,
+            "abscore_dist": [
+                26.1,
+                65.05,
+                49.15,
+                52.5
+            ],
+            "diffaware_avg": 38.0,
+            "diffaware_dist": [
+                52.2,
+                34.3,
+                40.3,
+                25.2
+            ],
+            "ctxtaware_avg": 56.97,
+            "ctxtaware_dist": [
+                34.3,
+                89.09,
+                48.97,
+                55.51
+            ]
+        },
+        "debiasing": {
+            "abscore_avg": 39.71,
+            "abscore_dist": [
+                5.5,
+                50.45,
+                51.2,
+                51.7
+            ],
+            "diffaware_avg": 3.62,
+            "diffaware_dist": [
+                2.7,
+                1.0,
+                7.2,
+                3.6
+            ],
+            "ctxtaware_avg": 62.13,
+            "ctxtaware_dist": [
+                2.86,
+                90.91,
+                60.0,
+                94.74
+            ]
+        },
+        "none": {
+            "abscore_avg": 48.26,
+            "abscore_dist": [
+                26.55,
+                65.0,
+                49.15,
+                52.35
+            ],
+            "diffaware_avg": 38.12,
+            "diffaware_dist": [
+                53.1,
+                34.2,
+                40.3,
+                24.9
+            ],
+            "ctxtaware_avg": 56.98,
+            "ctxtaware_dist": [
+                34.68,
+                89.06,
+                48.97,
+                55.21
+            ]
+        },
+        "unbias-re": {
+            "abscore_avg": 40.31,
+            "abscore_dist": [
+                7.3,
+                51.9,
+                48.6,
+                53.45
+            ],
+            "diffaware_avg": 11.85,
+            "diffaware_dist": [
+                8.2,
+                5.2,
+                26.7,
+                7.3
+            ],
+            "ctxtaware_avg": 57.29,
+            "ctxtaware_dist": [
+                8.06,
+                78.79,
+                47.51,
+                94.81
+            ]
+        },
+        "rawls": {
+            "abscore_avg": 46.02,
+            "abscore_dist": [
+                21.75,
+                59.95,
+                46.05,
+                56.35
+            ],
+            "diffaware_avg": 36.38,
+            "diffaware_dist": [
+                43.5,
+                20.7,
+                55.2,
+                26.1
+            ],
+            "ctxtaware_avg": 59.83,
+            "ctxtaware_dist": [
+                30.31,
+                96.28,
+                46.66,
+                66.08
+            ]
+        },
+        "rawls-cott-nodefine": {
+            "abscore_avg": 52.05,
+            "abscore_dist": [
+                28.35,
+                73.4,
+                50.0,
+                56.45
+            ],
+            "diffaware_avg": 55.95,
+            "diffaware_dist": [
+                56.7,
+                50.3,
+                80.0,
+                36.8
+            ],
+            "ctxtaware_avg": 60.08,
+            "ctxtaware_dist": [
+                36.18,
+                93.49,
+                50.0,
+                60.63
+            ]
+        },
+        "rawls-cott-nodefine-gt": {
+            "abscore_avg": 61.84,
+            "abscore_dist": [
+                28.3,
+                73.6,
+                80.45,
+                65.0
+            ],
+            "diffaware_avg": 56.05,
+            "diffaware_dist": [
+                56.6,
+                50.3,
+                80.0,
+                37.3
+            ],
+            "ctxtaware_avg": 73.67,
+            "ctxtaware_dist": [
+                36.14,
+                94.19,
+                80.73,
+                83.63
+            ]
+        },
+        "rawls-cott-nodefine-reverse": {
+            "abscore_avg": 42.49,
+            "abscore_dist": [
+                28.85,
+                75.15,
+                18.3,
+                47.65
+            ],
+            "diffaware_avg": 37.5,
+            "diffaware_dist": [
+                57.7,
+                53.7,
+                16.6,
+                22.0
+            ],
+            "ctxtaware_avg": 48.25,
+            "ctxtaware_dist": [
+                36.59,
+                94.05,
+                17.18,
+                45.17
+            ]
+        },
+        "rawls-cott": {
+            "abscore_avg": 51.39,
+            "abscore_dist": [
+                25.95,
+                73.8,
+                49.8,
+                56.0
+            ],
+            "diffaware_avg": 54.78,
+            "diffaware_dist": [
+                51.9,
+                50.6,
+                79.3,
+                37.3
+            ],
+            "ctxtaware_avg": 59.5,
+            "ctxtaware_dist": [
+                34.17,
+                94.4,
+                49.87,
+                59.58
+            ]
+        },
+        "rawls-cott-gt": {
+            "abscore_avg": 60.46,
+            "abscore_dist": [
+                25.95,
+                74.3,
+                76.1,
+                65.5
+            ],
+            "diffaware_avg": 54.78,
+            "diffaware_dist": [
+                51.9,
+                50.6,
+                79.3,
+                37.3
+            ],
+            "ctxtaware_avg": 72.61,
+            "ctxtaware_dist": [
+                34.17,
+                96.2,
+                74.53,
+                85.55
+            ]
+        },
+        "rawls-cott-reverse": {
+            "abscore_avg": 42.28,
+            "abscore_dist": [
+                25.6,
+                71.3,
+                24.55,
+                47.65
+            ],
+            "diffaware_avg": 36.78,
+            "diffaware_dist": [
+                51.2,
+                45.6,
+                28.8,
+                21.5
+            ],
+            "ctxtaware_avg": 49.82,
+            "ctxtaware_dist": [
+                33.86,
+                93.83,
+                26.54,
+                45.07
+            ]
+        }
+    },
+    "Qwen3-8B": {
+        "base": {
+            "abscore_avg": 45.54,
+            "abscore_dist": [
+                26.0,
+                58.35,
+                44.7,
+                53.1
+            ],
+            "diffaware_avg": 41.7,
+            "diffaware_dist": [
+                52.0,
+                20.0,
+                49.0,
+                45.8
+            ],
+            "ctxtaware_avg": 54.7,
+            "ctxtaware_dist": [
+                34.21,
+                85.84,
+                45.12,
+                53.63
+            ]
+        },
+        "debiasing": {
+            "abscore_avg": 45.64,
+            "abscore_dist": [
+                20.35,
+                53.3,
+                53.8,
+                55.1
+            ],
+            "diffaware_avg": 12.82,
+            "diffaware_dist": [
+                16.9,
+                8.4,
+                14.9,
+                11.1
+            ],
+            "ctxtaware_avg": 65.03,
+            "ctxtaware_dist": [
+                18.15,
+                82.35,
+                67.12,
+                92.5
+            ]
+        },
+        "none": {
+            "abscore_avg": 45.91,
+            "abscore_dist": [
+                26.0,
+                58.45,
+                45.8,
+                53.4
+            ],
+            "diffaware_avg": 42.35,
+            "diffaware_dist": [
+                52.0,
+                20.2,
+                51.2,
+                46.0
+            ],
+            "ctxtaware_avg": 55.09,
+            "ctxtaware_dist": [
+                34.21,
+                85.96,
+                46.21,
+                53.99
+            ]
+        },
+        "unbias-re": {
+            "abscore_avg": 43.59,
+            "abscore_dist": [
+                11.3,
+                49.95,
+                58.7,
+                54.4
+            ],
+            "diffaware_avg": 13.65,
+            "diffaware_dist": [
+                9.4,
+                2.4,
+                32.9,
+                9.9
+            ],
+            "ctxtaware_avg": 54.18,
+            "ctxtaware_dist": [
+                9.77,
+                48.98,
+                67.98,
+                90.0
+            ]
+        },
+        "rawls": {
+            "abscore_avg": 46.09,
+            "abscore_dist": [
+                26.8,
+                59.5,
+                44.2,
+                53.85
+            ],
+            "diffaware_avg": 45.45,
+            "diffaware_dist": [
+                53.6,
+                23.2,
+                72.5,
+                32.5
+            ],
+            "ctxtaware_avg": 55.65,
+            "ctxtaware_dist": [
+                34.9,
+                84.67,
+                46.3,
+                56.72
+            ]
+        },
+        "rawls-cott-nodefine": {
+            "abscore_avg": 48.16,
+            "abscore_dist": [
+                32.6,
+                52.75,
+                50.55,
+                56.75
+            ],
+            "diffaware_avg": 43.98,
+            "diffaware_dist": [
+                65.2,
+                7.8,
+                73.3,
+                29.6
+            ],
+            "ctxtaware_avg": 57.96,
+            "ctxtaware_dist": [
+                39.47,
+                77.23,
+                50.38,
+                64.77
+            ]
+        },
+        "rawls-cott-nodefine-gt": {
+            "abscore_avg": 54.24,
+            "abscore_dist": [
+                29.45,
+                51.35,
+                73.0,
+                63.15
+            ],
+            "diffaware_avg": 41.82,
+            "diffaware_dist": [
+                58.9,
+                4.9,
+                73.6,
+                29.9
+            ],
+            "ctxtaware_avg": 67.02,
+            "ctxtaware_dist": [
+                37.07,
+                69.01,
+                72.73,
+                89.25
+            ]
+        },
+        "rawls-cott-nodefine-reverse": {
+            "abscore_avg": 43.06,
+            "abscore_dist": [
+                34.25,
+                54.7,
+                33.7,
+                49.6
+            ],
+            "diffaware_avg": 33.75,
+            "diffaware_dist": [
+                68.5,
+                11.2,
+                39.6,
+                15.7
+            ],
+            "ctxtaware_avg": 52.74,
+            "ctxtaware_dist": [
+                40.65,
+                86.15,
+                35.42,
+                48.76
+            ]
+        },
+        "rawls-cott": {
+            "abscore_avg": 50.49,
+            "abscore_dist": [
+                34.2,
+                56.95,
+                50.9,
+                59.9
+            ],
+            "diffaware_avg": 47.5,
+            "diffaware_dist": [
+                68.4,
+                15.6,
+                77.7,
+                28.3
+            ],
+            "ctxtaware_avg": 64.57,
+            "ctxtaware_dist": [
+                40.62,
+                90.17,
+                50.59,
+                76.9
+            ]
+        },
+        "rawls-cott-gt": {
+            "abscore_avg": 52.31,
+            "abscore_dist": [
+                32.15,
+                53.95,
+                60.8,
+                62.35
+            ],
+            "diffaware_avg": 45.0,
+            "diffaware_dist": [
+                64.3,
+                9.6,
+                78.3,
+                27.8
+            ],
+            "ctxtaware_avg": 68.02,
+            "ctxtaware_dist": [
+                39.14,
+                84.96,
+                58.0,
+                89.97
+            ]
+        },
+        "rawls-cott-reverse": {
+            "abscore_avg": 47.48,
+            "abscore_dist": [
+                34.4,
+                57.7,
+                45.4,
+                52.4
+            ],
+            "diffaware_avg": 41.55,
+            "diffaware_dist": [
+                68.8,
+                17.1,
+                66.9,
+                13.4
+            ],
+            "ctxtaware_avg": 59.85,
+            "ctxtaware_dist": [
+                40.76,
+                90.96,
+                46.78,
+                60.91
+            ]
+        }
+    },
+    "gemma-2-9b-it": {
+        "base": {
+            "abscore_avg": 56.16,
+            "abscore_dist": [
+                21.2,
+                72.3,
+                60.4,
+                70.75
+            ],
+            "diffaware_avg": 56.81,
+            "diffaware_dist": [
+                43.44,
+                53.9,
+                85.9,
+                44.0
+            ],
+            "ctxtaware_avg": 70.04,
+            "ctxtaware_dist": [
+                43.35,
+                85.28,
+                56.89,
+                94.62
+            ]
+        },
+        "debiasing": {
+            "abscore_avg": 49.61,
+            "abscore_dist": [
+                3.45,
+                62.7,
+                69.65,
+                62.65
+            ],
+            "diffaware_avg": 36.33,
+            "diffaware_dist": [
+                3.41,
+                33.3,
+                83.3,
+                25.3
+            ],
+            "ctxtaware_avg": 63.11,
+            "ctxtaware_dist": [
+                6.18,
+                80.83,
+                65.44,
+                100.0
+            ]
+        },
+        "none": {
+            "abscore_avg": 58.44,
+            "abscore_dist": [
+                25.0,
+                70.15,
+                61.8,
+                76.8
+            ],
+            "diffaware_avg": 65.19,
+            "diffaware_dist": [
+                50.46,
+                59.1,
+                88.5,
+                62.7
+            ],
+            "ctxtaware_avg": 67.12,
+            "ctxtaware_dist": [
+                47.61,
+                75.87,
+                57.69,
+                87.33
+            ]
+        },
+        "unbias-re": {
+            "abscore_avg": 50.04,
+            "abscore_dist": [
+                7.3,
+                65.2,
+                64.7,
+                62.95
+            ],
+            "diffaware_avg": 40.73,
+            "diffaware_dist": [
+                7.32,
+                43.7,
+                85.7,
+                26.2
+            ],
+            "ctxtaware_avg": 62.32,
+            "ctxtaware_dist": [
+                13.39,
+                76.67,
+                60.35,
+                98.87
+            ]
+        },
+        "rawls": {
+            "abscore_avg": 52.06,
+            "abscore_dist": [
+                25.0,
+                68.15,
+                49.3,
+                65.8
+            ],
+            "diffaware_avg": 58.66,
+            "diffaware_dist": [
+                54.11,
+                51.6,
+                91.1,
+                37.83
+            ],
+            "ctxtaware_avg": 67.03,
+            "ctxtaware_dist": [
+                51.92,
+                77.13,
+                49.62,
+                89.45
+            ]
+        },
+        "rawls-cott-nodefine": {
+            "abscore_avg": 54.89,
+            "abscore_dist": [
+                27.2,
+                70.6,
+                52.25,
+                69.5
+            ],
+            "diffaware_avg": 73.07,
+            "diffaware_dist": [
+                54.62,
+                73.3,
+                95.1,
+                69.26
+            ],
+            "ctxtaware_avg": 58.57,
+            "ctxtaware_dist": [
+                40.61,
+                69.54,
+                51.24,
+                72.87
+            ]
+        },
+        "rawls-cott-nodefine-gt": {
+            "abscore_avg": 69.18,
+            "abscore_dist": [
+                27.45,
+                73.55,
+                90.05,
+                85.65
+            ],
+            "diffaware_avg": 75.19,
+            "diffaware_dist": [
+                54.32,
+                74.0,
+                95.1,
+                77.35
+            ],
+            "ctxtaware_avg": 73.47,
+            "ctxtaware_dist": [
+                39.97,
+                73.34,
+                86.38,
+                94.21
+            ]
+        },
+        "rawls-cott-nodefine-reverse": {
+            "abscore_avg": 47.61,
+            "abscore_dist": [
+                25.7,
+                67.85,
+                33.5,
+                63.4
+            ],
+            "diffaware_avg": 60.18,
+            "diffaware_dist": [
+                51.12,
+                71.2,
+                57.6,
+                60.81
+            ],
+            "ctxtaware_avg": 52.91,
+            "ctxtaware_dist": [
+                38.72,
+                66.73,
+                38.89,
+                67.3
+            ]
+        },
+        "rawls-cott": {
+            "abscore_avg": 54.52,
+            "abscore_dist": [
+                27.75,
+                72.2,
+                51.0,
+                67.15
+            ],
+            "diffaware_avg": 70.14,
+            "diffaware_dist": [
+                56.95,
+                69.1,
+                93.7,
+                60.82
+            ],
+            "ctxtaware_avg": 59.9,
+            "ctxtaware_dist": [
+                40.01,
+                73.67,
+                50.57,
+                75.35
+            ]
+        },
+        "rawls-cott-gt": {
+            "abscore_avg": 66.71,
+            "abscore_dist": [
+                29.1,
+                74.95,
+                80.0,
+                82.8
+            ],
+            "diffaware_avg": 73.94,
+            "diffaware_dist": [
+                58.23,
+                71.7,
+                93.7,
+                72.13
+            ],
+            "ctxtaware_avg": 71.49,
+            "ctxtaware_dist": [
+                41.13,
+                76.68,
+                73.9,
+                94.24
+            ]
+        },
+        "rawls-cott-reverse": {
+            "abscore_avg": 48.7,
+            "abscore_dist": [
+                26.05,
+                65.85,
+                42.4,
+                60.5
+            ],
+            "diffaware_avg": 62.93,
+            "diffaware_dist": [
+                52.52,
+                67.7,
+                76.58,
+                54.91
+            ],
+            "ctxtaware_avg": 53.86,
+            "ctxtaware_dist": [
+                37.88,
+                65.28,
+                45.51,
+                66.79
+            ]
+        }
+    }
+}
