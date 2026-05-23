@@ -22,7 +22,7 @@ model_name: {
 4. 指标分析需要四个 benchmark 分开讨论，优先考虑 diffaware 再是 ctxtaware。具体可参考：https://aclanthology.org/2025.acl-long.341/
 
 ```
-[fairness-neuron](result%2Ffairness-neuron): 7个开源模型的公平神经元
+[fairness-neuron](result%2Ffairness-neuron): 7个开源模型的公平神经元 (针对 benchmark3)
 ```
 {
 only_difference_neurons: {lid_nid}
